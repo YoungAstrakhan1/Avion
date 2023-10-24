@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="./src/img/Avionlogo.svg" />
+    <link rel="stylesheet" href="./src/style/style.css">
+    <title>Avion</title>
+</head>
+<body>
+    <header>
+        <div class="header_container">
+            <a class="btn_search" href="#"><img src="./src/img/Search.svg" alt="search"></a>
+            <a href="#"><img src="./src/img/Avion.svg" alt="logotype"></a>
+            <div class="header_nav">
+                <a href="basket.html"><img src="./src/img/Shoppingcart.svg" alt="shopcart"></a>
+                <a href="#"><img src="./src/img/Useravatar.svg" alt="avatar"></a>
+            </div>
+        </div>
+        <div class="header_links">
+            <a href="#">Plant pots</a>
+            <a href="#">Ceramics</a>
+            <a href="#">Tables</a>
+            <a href="#">Chairs</a>
+            <a href="#">Crockery</a>
+            <a href="#">Tableware</a>
+            <a href="#">Cutlery</a>
+        </div>
+    </header>
+    <main>
+        <div class="chair_product">
+            <div class="chair_product_img">
+                <img src="./src/img/chairleft.png" alt="">
+            </div>
+            <div class="chair_product_information">
+                <h1 class="chair_product_name">The Dandy Chair</h1>
+                <h1 class="chair_product_price">£250</h1>
+                <div class="chair_product_discription">
+                    <p class="chair_product_title_name">Description</p>
+                    <p class="chair_product_title">A timeless design, with premium materials features as one of our most<br> popular and iconic pieces. The dandy chair is perfect for any stylish<br> living space with beech legs and lambskin leather upholstery.</p>
+                    <ul>
+                        <li>Premium material</li>
+                        <li>Handmade upholstery</li>
+                        <li>Quality timeless classic</li>
+                    </ul>
+                </div>
+                <div class="chair_product_dimensions_specifications">
+                    <p class="chair_product_dimensions_specifications_name">Dimensions</p>
+                    <div class="dimensions_specifications">
+                        <div class="dimensions_height">
+                            <p class="dimensions_height_class">Height</p>
+                            <p class="dimensions_height_specifications">110cm</p>
+                        </div>
+                        <div class="dimensions_width">
+                            <p class="dimensions_width_name">Width</p>
+                            <p class="dimensions_width_specifications">75cm</p>
+                        </div>
+                        <div class="dimensions_depth">
+                            <p class="dimensions_depth_name">Depth</p>
+                            <p class="dimensions_depth_specifications">50cm</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="amount_container">
+                    <p class="amount">Amount:</p>
+                    <div class="amount_container_btn">
+                        <div class="btn_sum">
+                            <button class="btn_decrement" id="decrement">-</button>
+                            <span id="count">0</span>
+                            <button class="btn_increment" id="increment">+</button>
+                        </div>
+                        <div class="btn_add">
+                            <button onclick="document.location='basket.html'" class="btn_amount_add">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ceramic_container">
+            <h1 class="ceramic_title">You might also like</h1>
+            <div class="ceramic_wrapper">
+                <div class="block_ceramic">
+                    <img src="./src/img/Parent.png" alt="">
+                    <p>The Dandy chair</p>
+                    <p>£250</p>
+                </div>
+                <div class="block_ceramic">
+                    <img src="./src/img/Parent1.png" alt="">
+                    <p>Rustic Vase Set</p>
+                    <p>£155</p>
+                </div>
+                <div class="block_ceramic">
+                    <img src="./src/img/Parent2.png" alt="">
+                    <p>The Silky Vase</p>
+                    <p>£125</p>
+                </div>
+                <div class="block_ceramic">
+                    <img src="./src/img/Parent3.png" alt="">
+                    <p>The Lucy Lamp</p>
+                    <p>£399</p>
+                </div>   
+            </div>
+            <div class="btn_ceramic">
+                <button onclick="document.location='./product_listing.html'" class="btn_ceramic_collection">View collection</button>
+            </div>
+        </div>
+        <div class="brand_containerv1">
+            <h1 class="brand_title">What makes our brand different</h1>
+            <div class="brand_wrapper">
+                <div class="block_brand">
+                    <img src="./src/img/Delivery.png" alt="">
+                    <p class="block_brand_title">Next day as standard</p>
+                    <p class="block_brand_subtitle">Order before 3pm and get your order<br>the next day as standard</p>
+                </div>
+                <div class="block_brand">
+                    <img src="./src/img/Checkmarkoutline.png" alt="">
+                    <p class="block_brand_title">Made by true artisans</p>
+                    <p class="block_brand_subtitle">Handmade crafted goods made with<br>real passion and craftmanship</p>
+                
+                </div>
+                <div class="block_brand">
+                    <img src="./src/img/Purchase.png" alt="">
+                    <p class="block_brand_title">Unbeatable prices</p>
+                    <p class="block_brand_subtitle">For our materials and quality you<br>won’t find better prices anywhere</p>
+                </div>
+                <div class="block_brand">
+                    <img src="./src/img/Sprout.png" alt="">
+                    <p class="block_brand_title">Recycled packaging</p>
+                    <p class="block_brand_subtitle">We use 100% recycled packaging to<br>ensure our footprint is manageable</p>
+                </div>
+            </div>
+        </div>
+        <div class="join_container">
+            <div class="join_text">
+                <h1 class="join_title">Join the club and get the benefits</h1>
+                <p class="join_subtitle">Sign up for our newsletter and receive exclusive offers on new<br> ranges, sales, pop up stores and more</p>
+            </div>
+            <div class="join_form">
+                <input class="join_input" type="text" placeholder="your@email.com">
+                <button onclick="alert('Welcome the club')" class="btn_join">Sign up</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <footer>
+            <div class="footer_container">
+                <div class="footer_menu">
+                    <a>Menu</a>
+                    <a>New arrivals</a>
+                    <a>Best sellers</a>
+                    <a>Recently viewed</a>
+                    <a>Popular this week</a>
+                    <a>All products</p>
+                    <p class="footer_right">Copyright 2022 Avion LTD</p>
+                </div>
+                <div class="footer_categories">
+                    <a>Categories</a>
+                    <a>Crockery</a>
+                    <a>Furniture</a>
+                    <a>Homeware</a>
+                    <a>Plant pots</a>
+                    <a>Chairs</a>
+                </div>
+                <div class="footer_company">
+                    <a>Our company</a>
+                    <a>About us</a>
+                    <a>Vacancies</a>
+                    <a>Contact us</a>
+                    <a>Privacy</a>
+                    <a>Returns policy</a>
+                </div>
+                <div class="footer_join">
+                    <p>Join our mailing list</p>
+                    <div class="join_form3">
+                        <input class="join_input3" type="text" placeholder="your@email.com">
+                        <button onclick="alert('An invitation letter has been sent to your email')" class="btn_join3">Sign up</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </footer>
+    <script src="./src/script/script.js"></script>
+</body>
+</html>
