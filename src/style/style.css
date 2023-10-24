@@ -821,6 +821,10 @@ main {
         }
     }
 
+  .chair_v1_block, .chair_v2_block, .chair_v3_block, .chair_v4_block{
+    width:163px;
+  }
+
     .last_join{
         display: none;
     }
