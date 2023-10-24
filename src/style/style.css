@@ -667,10 +667,11 @@ main {
 }
 
 .chair_block {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 305px 305px 305px 305px;
   gap: 20px;
   padding-bottom: 30px;
+  justify-content: center;
   color: #2A254B;
 }
 
