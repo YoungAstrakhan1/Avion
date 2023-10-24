@@ -805,6 +805,33 @@ main {
   color: #ffffff;
 }
 
+@media (min-width:320px) {
+
+    .header_links{
+        display: none;
+    }
+    
+    .chair_block{
+        grid-template-columns: 163px 163px;
+        gap: 20px;
+
+        img{
+            width: 163px;
+        }
+    }
+
+    .last_join{
+        display: none;
+    }
+
+    .join_form3{
+        display: none;
+    }
+
+    .footer_container{
+        display: none;
+    }
+}
 .footer_right {
   padding-top: 103px;
 }/*# sourceMappingURL=style.css.map */
